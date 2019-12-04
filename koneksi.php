@@ -1,7 +1,12 @@
 <?php
 
-$x     = 4;
-$y     = 5;
-$z     = $x + $y;
+    $server     = "localhost";
+    $usr        = "root";
+    $pass       = "1234";
+    $dbname     = "phpsql";
 
-echo $z;
+    $konek      = mysqli_connect($server, $usr, $pass, $dbname);
+
+    if (!$konek) {
+        die(mysqli_connect_error()." Koneksi Gagal!");
+    }
