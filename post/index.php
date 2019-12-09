@@ -45,7 +45,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        User
+        Post
         <small>bikin projek CMS seperti Wordpress</small>
       </h1>
       <ol class="breadcrumb">
